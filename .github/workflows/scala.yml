@@ -25,7 +25,9 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '11'  # Adjust to your JDK version (8, 11, 17, etc.)
-
+      - name: Install sbt
+        uses: sbt/setup-sbt@v1
+        
       - name: Cache sbt dependencies
         uses: actions/cache@v4
         with:
