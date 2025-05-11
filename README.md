@@ -1,4 +1,4 @@
-# LogShow
+# HiddenLog
 Use when logging object fields that contain sensitive information.
 
 # How start
